@@ -1,0 +1,43 @@
+li {
+  border:solid;
+  border-top:none;
+  border-width:1px;
+  border-color: #ddd;
+  list-style: none;
+  padding:15px;
+}
+
+li:first-child{
+  border-top:solid;
+  border-color: #ddd;
+  border-width:1px;
+}
+
+li:hover{
+  cursor: pointer;
+  background-color: #eee;
+  opacity:0.9;
+}
+
+.search-bar {
+  margin:20px;
+  text-align: center;
+}
+
+.search-bar input {
+  outline:none;
+  width:75%;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding:10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+
