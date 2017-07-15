@@ -1,32 +1,32 @@
 li {
-  border:solid;
-  border-top:none;
-  border-width:1px;
+  border: solid;
+  border-top: none;
+  border-width: 1px;
   border-color: #ddd;
   list-style: none;
-  padding:15px;
+  padding: 15px;
 }
 
-li:first-child{
-  border-top:solid;
+li:first-child {
+  border-top: solid;
   border-color: #ddd;
-  border-width:1px;
+  border-width: 1px;
 }
 
-li:hover{
+li:hover {
   cursor: pointer;
   background-color: #eee;
-  opacity:0.9;
+  opacity: 0.9;
 }
 
 .search-bar {
-  margin:20px;
+  margin: 20px;
   text-align: center;
 }
 
 .search-bar input {
-  outline:none;
-  width:75%;
+  outline: none;
+  width: 75%;
 }
 
 .video-item img {
@@ -35,9 +35,7 @@ li:hover{
 
 .video-detail .details {
   margin-top: 10px;
-  padding:10px;
+  padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
-
-
